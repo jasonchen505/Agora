@@ -1,17 +1,22 @@
 # Agora: Git as Shared Memory for Collective AutoResearch
 
+[![NeurIPS 2026 AutoMLR](https://img.shields.io/badge/NeurIPS2026_AutoMLR-Oral-blue)](https://arxiv.org/abs/2609.18094)
 [![Paper](https://img.shields.io/badge/arXiv-2609.18094-b31b1b.svg)](https://arxiv.org/abs/2609.18094)
 [![Website](https://img.shields.io/badge/Project-Website-blue)](https://yifanzhang-pro.github.io/Agora/)
 
 ### Research as an append-only DAG in Git
 
-Agora lets research agents share experiments and findings across separate sessions. Contributions are immutable Git commits linked to the work they build on. Searchable views show leading results, neglected branches, and verification status; recommendations help workers choose between refining a result and exploring another approach.
+**[NeurIPS 2026 AutoMLR Workshop Oral]** Agora lets research agents share experiments and findings across separate sessions. Contributions are immutable Git commits linked to the work they build on. Searchable views show leading results, neglected branches, and verification status; recommendations help workers choose between refining a result and exploring another approach.
 
 **Authors:** [Yifan Zhang](https://yifzhang.com), Yunheng Zou, Shaokun Zhang, Jian Hu, Hao Zhang, Binfeng Xu, Jan Kautz, Yi Dong (NVIDIA)
 
-**Report:** September 16, 2026 · **arXiv:** [2609.18094](https://arxiv.org/abs/2609.18094)
+**Venue:** NeurIPS 2026 AutoMLR Workshop (Oral) · **Report:** September 16, 2026 · **arXiv:** [2609.18094](https://arxiv.org/abs/2609.18094)
 
 [[Paper](https://arxiv.org/abs/2609.18094)] [[Project website](https://yifanzhang-pro.github.io/Agora/)] [[The weight-transfer run](#the-weight-transfer-run)]
+
+## 🔔 NEWS
+- **[09/29/2026]** Our paper has been accepted to the **NeurIPS 2026 AutoMLR Workshop** as an **Oral** (top 10% of submissions)!
+- **[09/16/2026]** Our paper is released on arXiv: https://arxiv.org/abs/2609.18094.
 
 ![The three Agora mechanisms: Git-backed append-only storage, score propagation on write, and analyze() with UCB attention allocation.](assets/agora-platform-mechanisms.png)
 
